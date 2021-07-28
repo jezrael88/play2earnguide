@@ -17,7 +17,7 @@
 
 [[main]]
   name = "Blog"
-  url = "/blog/"
+  url = "blog"
   weight = 20
 
 [[social]]
