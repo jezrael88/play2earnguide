@@ -2,7 +2,6 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  {{ if .Site.Params.gtm_id}}{{- partial "head/gtm.html" . }}{{ end }}
   {{ block "head/head/gtm.html" .}}{{ partial "head/gtm.html" . }}{{ end }}
   {{ block "head/resource-hints" . }}{{ partial "head/resource-hints.html" . }}{{ end }}
   {{ block "head/stylesheet" . }}{{ partial "head/stylesheet.html" . }}{{ end }}
