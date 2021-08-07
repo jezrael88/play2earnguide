@@ -7,7 +7,7 @@ lastmod: 2021-08-06
 draft: false
 weight: 20
 contributors: ["JZBY 88"]
-images: ["featurepic.png"]
+images: ["feature_pic.png"]
 ---
 
 {{< img src="toaster backpack" alt="Toaster Backpack NFT" caption="<em>Toaster Backpack NFT for 195 Hype Points</em>" class="border-0" >}}
