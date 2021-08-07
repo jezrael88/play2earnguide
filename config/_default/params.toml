@@ -6,6 +6,10 @@ titleSeparator = "-"
 titleAddition = "Maximize your earnings"
 description = "Learn How to maximize your game time with our tips, tricks, and up to date strategies."
 
+## GTM
+
+gtm_id = "GTM-P3S6K65"
+
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
@@ -50,7 +54,7 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
+footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, <a href=\"https://getdoks.org/\">Doks</a>, and <a href=\"#\">JZBY 88</a>"
 copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
 
 # Alert
@@ -65,7 +69,7 @@ editPage = false
   lazySizes = true
   clipBoard = true
   instantPage = true
-  flexSearch = true
+  flexSearch = false
   darkMode = true
   bootStrapJs = true
   breadCrumb = false

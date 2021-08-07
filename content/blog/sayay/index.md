@@ -4,7 +4,7 @@ description: "Introducing Doks, a Hugo theme helping you build modern documentat
 lead: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
 date: 2021-07-29
 lastmod: 2021-07-29
-draft: false
+draft: true
 weight: 30
 contributors: ["JZBY 88"]
 ---

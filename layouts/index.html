@@ -6,7 +6,7 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "docs/prologue/introduction/" | relURL }}" role="button">Get started</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="#blog" role="button">Get started</a>
     </div>
   </div>
 </section>
@@ -21,30 +21,30 @@
   <div class="container">
     <div class="row justify-content-center text-center mt-n3">
       <div class="col-lg-5">
-        <h2 class="h4">Free2play games🎮</h2>
-        <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/doks.netlify.app">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.</p>
+        <h2 class="h4">Free play2earn games🎮</h2>
+        <p>From scholarship to free to play games, we got you covered. We have an extensive list of games you can check out specially if you don't want to shell out money to begin.</p>
       </div>
       <div class="col-lg-5">
         <h2 class="h4">Fast farming⚡️</h2>
-        <p>Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=7731347bb8ce999eff7428a8e763b637">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
+        <p>Want to make most of your time? Check our latest farming guide!</p>
       </div>
       <div class="col-lg-5">
         <h2 class="h4">Video guides📺</h2>
-        <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.</p>
+        <p>Bored ready? Watch our videos instead.. Coming very soon!</p>
       </div>
     </div>
     <div class="row justify-content-center text-center">
       <div class="col-lg-5">
         <h2 class="h4">Latest Trends📈</h2>
-        <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
+        <p>Get wind of the latest trends!</p>
       </div>
       <div class="col-lg-5">
         <h2 class="h4">Tips and Strategies💡</h2>
-        <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
+        <p>Discover tips and strategies you have never thought of!</p>
       </div>
       <div class="col-lg-5">
         <h2 class="h4">Maximize your earnings💰</h2>
-        <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
+        <p>Make most of your time by learning effective ways to achieve your game goals!</p>
       </div>
     </div>
   </div>
@@ -53,6 +53,7 @@
 
 {{ define "sidebar-footer" }}
 
+<!--
 <section class="section section-md mt-1 bg-light">
   <div class="container">
     <div class="row justify-content-center align-items-center text-center mt-n3">
@@ -69,12 +70,13 @@
     </div>
   </div>
 </section>
+-->
 
-<section class="section section-sm mt-4 pt-4">
+<section class="section section-sm mt-4 pt-4" id="blog">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-12 col-lg-10 col-xl-8">
-        <h2 class="h3 mt-3 text-center">Latest from Doks blog</h2>
+        <h2 class="h3 mt-3 text-center">🚀Latest from Play 2 Earn Guide🚀</h2>
         <div class="card-list">
         {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "blog")  -}}
         <div class="card">
@@ -91,6 +93,7 @@
   </div>
 </section>
 
+<!--
 <section class="section section-sm mt-n5">
   <div class="container">
     <div class="row justify-content-center">
@@ -100,6 +103,7 @@
     </div>
   </div>
 </section>
+-->
 
 <section class="section section-sm container-fluid">
   <div class="row justify-content-center text-center">
