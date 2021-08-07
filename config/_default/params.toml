@@ -6,9 +6,6 @@ titleSeparator = "-"
 titleAddition = "Maximize your earnings"
 description = "Learn How to maximize your game time with our tips, tricks, and up to date strategies."
 
-## GTM
-gtm_id = "GTM-P3S6K65"
-
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
