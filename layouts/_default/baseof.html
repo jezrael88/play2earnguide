@@ -13,8 +13,7 @@
     {{ .Scratch.Add "class" " list" -}}
   {{ end -}}
   <body class="{{ .Scratch.Get "class" }}">
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3S6K65"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    {{ if .Site.Params.gtm_id}}<noscript><iframe src="//www.googletagmanager.com/ns.html?id={{ .Site.Params.gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>{{ end }}
     {{ partial "header/header.html" . }}
     <div class="wrap container" role="document">
       <div class="content">
