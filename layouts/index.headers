@@ -2,7 +2,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
-  default-src 'none'; connect-src https://client.axept.io/60ae5e896cd349769a803843.json; font-src 'self'; img-src 'self' https://axeptio.imgix.net; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://static.axept.io/sdk.js https://www.googletagmanager.com/gtm.js; style-src 'self' 'unsafe-inline' 
+  Content-Security-Policy: default-src 'none'; connect-src https://client.axept.io/60ae5e896cd349769a803843.json; font-src 'self'; img-src 'self' https://axeptio.imgix.net; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://static.axept.io/sdk.js https://www.googletagmanager.com/gtm.js; style-src 'self' 'unsafe-inline'
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin
   Feature-Policy: geolocation 'self'
